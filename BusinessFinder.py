@@ -132,7 +132,7 @@ def main():
     small_only = input("\nOnly show small businesses? (y/n): ").lower().startswith('y')
 
     # Google API Key
-    API_KEY = "AIzaSyARy9REj6w_IGfBVN9xd6V2xNS6Q8lVZxQ"  # 🔑 Replace with your actual API key
+    API_KEY = ""  # 🔑 Replace with your actual API key
 
     print(f"\n🔍 Searching for {keyword}s near {city_name}...\n")
     results = find_local_businesses(API_KEY, city_coords, keyword, small_business_only=small_only)
