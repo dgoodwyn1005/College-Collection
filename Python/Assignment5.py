@@ -20,4 +20,5 @@ def convolution(image, kernel):
 
     return finalConvolution
 
+
 print(convolution(arr1, arr2))
